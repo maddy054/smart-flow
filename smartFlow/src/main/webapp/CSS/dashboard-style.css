@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body, html {
+    height: 96.5%;
+    margin: 0;
+ 
+}
+
+header {
+    background-color: #ffffff;
+
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logo img {
+    max-height: 100px;
+    width: 150px;
+    cursor: pointer;
+
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+}
+
+.topnav {
+    display: flex;  
+}
+
+.topnav a {
+
+    text-align: center; 
+    padding: 20px 20px; 
+    text-decoration: none; 
+    font-size: large;
+    color: #000000;
+}
+.other-nav{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+}
+.this-nav{
+    display: flex;
+    align-items: center;
+    background-color: #a7dfb8;
+    border-radius: 10px;
+    color: #000000; 
+}
+.other-nav:hover {
+    background-color: #113b23;
+    color: #ffffff;
+}
+
+.page{
+    display: flex;
+    background-image: url('dash-background-modified\(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+ 
+
+}
+
+
+.side-nav{
+    background-color: #ebeeea;
+    display:  flex;
+    flex-direction: column;
+    
+    width: 200px;
+ 
+}
+
+.this-side-nav,
+.other-side-nav{
+    padding: 20px;
+    
+
+}
+
+.this-side-nav{
+    background-color: #cad8d0;
+    border-left: 5px solid #113b23;
+}
+
+
+.this-side-nav,
+.other-side-nav a{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.other-side-nav:hover{
+    background-color: #315a40;
+    color: #ffffff;
+    cursor: pointer;
+  
+}
+.other-side-nav:hover:hover a{
+    color: #ffffff;
+}
+
+.complete-dash{
+    background-color: rgba(131, 177, 161, 0.5);
+    border-radius: 10px;
+    margin: 250px 0px 300px 370px;
+}
+.dashboard-head{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.dashboard{
+    display: flex;
+    
+}
+.pump-detail{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: max-content;
+    padding: 20px;
+    padding-right: 70px;
+    margin: 40px;
+}
+
+.flow-detail{
+    background-color: aliceblue;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tank-detail{
+    background-color: aliceblue;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+

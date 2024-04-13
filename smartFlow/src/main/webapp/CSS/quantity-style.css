@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+
+.align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+.sensor-nav{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+.sensor-nav a{
+    padding: 20px;
+}
+
+.this-sensor{
+    background-color: #cad8d0;
+    border-radius: 10px;
+}
+
+.other-sensor:hover{
+    background-color: #113b23;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.chart{
+    margin-left: 270px;
+    width: 1000px;
+    margin-top: 200px;
+    background-color: #f2fdf6;
+    margin-bottom: 400px;
+    border-radius: 10px;
+
+    
+}
